@@ -54,9 +54,9 @@ function Search() {
                             ) : (
                                 <>
                                     <div className="container-img">
-                                        <img src={dataUser?.avatar_url} className="avatar-git" />
+                                        <img src={dataUser?.avatar_url} className="avatar-git" alt="avatar do git do usuário" />
                                         <button className="button">
-                                            <a href={dataUser?.html_url} target="_blank">
+                                            <a href={dataUser?.html_url} rel="noreferrer">
                                                 Ver perfil
                                             </a>
                                         </button>
