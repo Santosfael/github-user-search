@@ -1,3 +1,6 @@
+# What does the project do?
+In order to put into practice the challenge of the Devsuperior bootcamp, this project was developed to search for user information on github and then present it on the page.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,148 @@
+.container-search {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 100px 0px 90px;
+}
+
+.content-search {
+    display: flex;
+    flex-direction: column;
+    background-color: #E6F7FF;
+    border-radius: 16px;
+
+    padding: 65px 0 50px 95px;
+}
+
+.text-title {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+
+    color: #262626;
+}
+
+.input-user {
+    margin-bottom: 25px;
+    margin-right: 481px;
+    height: 40px;
+
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+
+
+    padding-left: 10px;
+
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+
+    background-color: #1890FF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #1861ff;
+}
+
+.container-data-user {
+    background: #F5F5F5;
+    margin-top: 64px;
+    border-radius: 8px;
+    padding: 23px 23px 27px 30px;
+}
+
+.content-data-user {
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar-git {
+    width: 280px;
+    height: 280px;
+}
+
+.container-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-img button {
+    margin-top: 20px;
+}
+
+.data-user {
+    display: flex;
+    flex-direction: column;
+    margin-left: 44px;
+    width: 100%;
+}
+
+.content-data {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+
+.data-span {
+    background: #FFFFFF;
+    margin-right: 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    padding: 1px 14px 1px 14px;
+    height: 22px;
+
+    font-size: 12px;
+    line-height: 20px;
+    color: #595959;
+
+    display: flex;
+    align-items: center;
+}
+
+.content-infor {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    padding: 8px 23px 17px 15px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1890FF;
+    margin-bottom: 20px;
+}
+
+.content-infor h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #737373;
+
+    border: 1px solid #D9D9D9;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    padding: 8px 34px 8px 10px;
+}
+
+.content-infor h4 span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #737373;
+}
