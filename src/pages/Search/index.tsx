@@ -1,10 +1,13 @@
 import { useState } from 'react';
+import dayjs from 'dayjs';
 
 import ImageLoader from './components/Loaders/ImageLoader';
 import InfoLoader from './components/Loaders/InfoLoader';
 import { User } from '../../core/types/User';
 import Api from '../../core/utils/api';
 import './styles.css';
+
+
 
 function Search() {
     const [userName, setUserName] = useState('');
@@ -83,7 +86,7 @@ function Search() {
                                             </h4>
                                             <h4>
                                                 Membro desde:
-                                                <span> {dataUser?.created_at}</span>
+                                                <span> {dayjs(dataUser?.created_at).format('DD/MM/YYYY')}</span>
                                             </h4>
                                         </div>
                                     </div>
